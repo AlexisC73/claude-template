@@ -25,6 +25,10 @@
 - Fais TOUJOURS des commits au format *conventional commits* (`feat:`,
   `fix:`, `refactor:`, `docs:`, `chore:`, `feat!:`/`BREAKING CHANGE:`). Je
   n'en écrirai jamais un moi-même : c'est ton travail, à chaque fois.
+- Si tu remarques que le projet n'a pas encore de versioning (un numéro de
+  version de l'app tenu à jour) ou pas de release-please (qui s'appuie sur
+  ces commits pour générer les versions et le changelog), préviens-moi et
+  propose de le mettre en place.
 - Va droit au but : pas de pédagogie non demandée. Je poserai mes questions
   quand un truc me perdra.
 - Annonce ton plan et attends mon accord uniquement sur les chantiers qui
