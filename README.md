@@ -12,6 +12,7 @@ garde-fous et les règles de sécurité non négociables du produit.
 | Fichier | Rôle |
 | --- | --- |
 | `AGENTS.md` | Brief de l'agent : projet, langue, façon de travailler, garde-fous, ligne rouge sécurité, audit, décisions, avancement. |
+| `CLAUDE.md` | Point d'entrée de Claude Code : importe `AGENTS.md` (`@AGENTS.md`), pour n'avoir qu'un seul brief à tenir à jour. |
 | `README.md` | Ce fichier. |
 
 ## Démarrer un nouveau projet
@@ -27,8 +28,9 @@ garde-fous et les règles de sécurité non négociables du produit.
 2. Faire remplir `AGENTS.md` par l'agent : lui donner le fichier avec la
    phrase ci-dessous (voir [Phrase à copier](#phrase-à-copier)).
 3. Remplacer ce README par celui du nouveau projet.
-4. Pour Claude Code, qui lit `CLAUDE.md`, créer un `CLAUDE.md` qui contient
-   simplement la ligne `@AGENTS.md`.
+
+`CLAUDE.md` est déjà prêt : il renvoie vers `AGENTS.md`, à ne pas modifier.
+Tout se met dans `AGENTS.md`.
 
 ### Phrase à copier
 
