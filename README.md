@@ -24,13 +24,19 @@ garde-fous et les règles de sécurité non négociables du produit.
    rm -rf .git && git init
    ```
 
-2. Remplir la section **Le projet** de `AGENTS.md` : ce que fait le produit,
-   pour qui, et ce qu'il ne faut jamais casser.
-3. Remplacer `[ce que je ne veux jamais casser]` dans **Comment je veux qu'on
-   travaille** par la même chose.
-4. Remplacer ce README par celui du nouveau projet.
-5. Pour Claude Code, qui lit `CLAUDE.md`, créer un `CLAUDE.md` qui contient
+2. Faire remplir `AGENTS.md` par l'agent : lui donner le fichier avec la
+   phrase ci-dessous (voir [Phrase à copier](#phrase-à-copier)).
+3. Remplacer ce README par celui du nouveau projet.
+4. Pour Claude Code, qui lit `CLAUDE.md`, créer un `CLAUDE.md` qui contient
    simplement la ligne `@AGENTS.md`.
+
+### Phrase à copier
+
+À envoyer à l'agent en même temps que `AGENTS.md` :
+
+```text
+Voici AGENTS.md, le brief de ce projet. Lis-le en entier et applique-le dès maintenant. Repère tout ce qui reste à compléter (les [...] et [ce que je ne veux jamais casser]). S'il y a déjà du code dans ce dossier, déduis-en ce que tu peux et montre-le-moi pour validation. Pour le reste, pose-moi tes questions une par une, en langage simple. Remplis ensuite le fichier avec mes réponses, sans toucher aux autres sections, puis montre-moi le résultat avant de commiter.
+```
 
 ## Au fil du projet
 
